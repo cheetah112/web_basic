@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bai tap 3</title>
+        <link rel="icon" type="image/x-icon" href="https://learn.techmaster.vn/favicon.png"/>
+        <style>
+          body{width: 900pt;border-style: double; border: 5pt 5pt 5pt 5pt; margin: 10pt 10pt 10pt 10pt;}
+          label.a{font-weight: bold}
+        </style>
+    </head>
+    <body>
+        <form>
+            <h2 style="text-align:center; font-weight:bold"> Thông tin cá nhân</h2>
+            <label class="a" for="ho-ten">Họ và tên: </label>
+            <input type="text" id="ho-ten" placeholder="Nhập họ và tên">
+            <br>
+            <br>
+            <label class="a" for="gioi-tinh">Giới tính: </label>
+            <input type="radio" id="a1" name="gioi-tinh">
+            <label for="a1">Nam</label>
+            <input type="radio" id="a2" name="gioi-tinh">
+            <label for="a2">Nữ</label>
+            <input type="radio" id="a3" name="gioi-tinh">
+            <label for="a3">Khác</label>
+            <br>
+            <br>
+            <label class="a" for="cong-viec">Tình trạng công việc: </label>
+            <select id="cong-viec">
+                <option value="chua-di-lam">Chưa đi làm</option>
+                <option value="dang-di-lam">Đang đi làm</option>
+                <option value="da-nghi-huu">Đã nghỉ hưu</option>
+            </select>
+            <br>
+            <br>
+            <label class="a" for="ghi-chu">Ghi chú:</label>
+            <br>
+            <textarea style="width: 895pt; height: 100pt; background-color:rgb(218, 214, 214)"></textarea>
+            <br>
+            <br>
+            <p style="text-align:center; margin-bottom: 50pt;">  
+                <button type="submit">Đồng ý</button>
+                <button type="reset">Hủy</button>
+            </p> 
+        </form>
+    </body>
+</html>       
