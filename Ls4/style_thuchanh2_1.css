@@ -1,0 +1,10 @@
+li:first-child {
+    color:green;
+    background-color:aqua;
+    width: 100px;
+}
+li:last-child {
+    color:red;
+    background-color:pink;
+    width:100px;
+}
