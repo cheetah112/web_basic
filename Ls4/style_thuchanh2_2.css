@@ -1,0 +1,7 @@
+li:not(:nth-child(0)) {
+    background-color:aqua;
+    text-align: center;
+    width: 120px;
+    border-bottom: 2px solid blue;
+    list-style:none;
+}
