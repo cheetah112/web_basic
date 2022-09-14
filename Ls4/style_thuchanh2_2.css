@@ -1,7 +1,9 @@
-li:not(:nth-child(0)) {
+li {
     background-color:aqua;
     text-align: center;
-    width: 120px;
-    border-bottom: 2px solid blue;
+    width: 120px;;
     list-style:none;
+}
+li:not(:first-child) {
+    border-top: 2px solid blue;
 }
