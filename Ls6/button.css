@@ -1,0 +1,31 @@
+.button1:hover {
+    background-color:aqua;
+    color: red;
+    transition-delay: 2s;
+}
+.button2:hover {
+    transform: scale(150%);
+    transition-timing-function:steps(5s)
+}
+.button1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    font-size: 25;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.button2 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    font-size: 25;
+    font-weight: bold;
+    border-radius: 50%;
+}
