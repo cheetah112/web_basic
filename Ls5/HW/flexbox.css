@@ -59,7 +59,7 @@
     border-color: blue;
 }
 .buttom {
-    position: fixed;
+    position: sticky;
     bottom: 50px;
     right: 50px;
     width: 100px;
