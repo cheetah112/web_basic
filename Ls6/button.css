@@ -1,11 +1,16 @@
 .button1:hover {
     background-color:aqua;
     color: red;
-    transition-delay: 2s;
 }
 .button2:hover {
     transform: scale(150%);
-    transition-timing-function:steps(5s)
+}
+.button3:hover {
+    transform: rotateY(360deg)
+}
+.button4:hover {
+    transform: translateY( -50px);
+    box-shadow: 10px 10px 5px black;
 }
 .button1 {
     display: flex;
@@ -17,6 +22,7 @@
     font-size: 25;
     font-weight: bold;
     border-radius: 50%;
+    transition-delay: 2s;
 }
 .button2 {
     display: flex;
@@ -28,4 +34,29 @@
     font-size: 25;
     font-weight: bold;
     border-radius: 50%;
+    transition: ease 3s;
+}
+.button3 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 25;
+    font-weight: bold;
+    border-radius: 20%;
+    transition: ease 5s;
+}
+.button4 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 255, 55);
+    font-size: 25;
+    font-weight: bold;
+    border-radius: 20%;
+    transition: ease 5s;
 }
