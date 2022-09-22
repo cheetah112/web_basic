@@ -1,0 +1,111 @@
+.main {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-radius: 50%;
+    margin: auto;
+}
+.sub1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 250px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub2_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub2_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    right: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub3_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 175px;
+    left: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub3_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 175px;
+    right: 15px;
+    background-color: red;
+    border-radius: 50%
+}
+.sub4_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 175px;
+    left: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub4_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 175px;
+    right: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub5_1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    left: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub5_2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    right: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+.sub6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    left: 250px;
+    background-color: red;
+    border-radius: 50%;
+}
+@keyframes loading_spinner {
+    0%: { background-color: red; top:0px; left: 250px}
+    10%: {background-color: red; top:0px; left: 250px}
+    20%: {background-color: red; top:0px; left: 250px}
+    30%: {background-color: red; top:0px; left: 250px}
+    40%: {background-color: red; top:0px; left: 250px}
+    50%: {background-color: red; top:0px; left: 250px}
+    60%: {background-color: red; top:0px; left: 250px}
+    70%: {background-color: red; top:0px; left: 250px}
+    80%: {background-color: red; top:0px; left: 250px}
+    90%: {background-color: red; top:0px; left: 250px}
+    100%: {background-color: red; top:0px; left: 250px}
+}
