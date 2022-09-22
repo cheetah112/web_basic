@@ -1,0 +1,22 @@
+p::selection {
+    background-color: aqua;
+    color: red;
+}
+li::marker {
+    content:'😀'
+}
+.download-link::before {
+    content:'😀'
+}
+.image {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.main {
+    width: 1000px;
+
+}
