@@ -20,7 +20,7 @@
     width: 100px;
     height: 100px;
     top: 50px;
-    left: 100px;
+    left: 400px;
     background-color: red;
     border-radius: 50%;
 }
@@ -29,7 +29,7 @@
     width: 100px;
     height: 100px;
     top: 50px;
-    right: 100px;
+    left: 100px;
     background-color: red;
     border-radius: 50%;
 }
@@ -47,7 +47,7 @@
     width: 100px;
     height: 100px;
     top: 175px;
-    right: 15px;
+    left: 489px;
     background-color: red;
     border-radius: 50%
 }
@@ -55,8 +55,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: 175px;
-    left: 15px;
+    top: 328px;
+    left: 12px;
     background-color: red;
     border-radius: 50%;
 }
@@ -64,8 +64,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: 175px;
-    right: 15px;
+    top: 325px;
+    left: 489px;
     background-color: red;
     border-radius: 50%;
 }
@@ -73,7 +73,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: 50px;
+    top: 450px;
     left: 100px;
     background-color: red;
     border-radius: 50%;
@@ -82,8 +82,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: 50px;
-    right: 100px;
+    top: 450px;
+    left: 400px;
     background-color: red;
     border-radius: 50%;
 }
@@ -91,21 +91,30 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    bottom: 0px;
+    top: 500px;
     left: 250px;
     background-color: red;
     border-radius: 50%;
 }
-@keyframes loading_spinner {
-    0%: { background-color: red; top:0px; left: 250px}
-    10%: {background-color: red; top:0px; left: 250px}
-    20%: {background-color: red; top:0px; left: 250px}
-    30%: {background-color: red; top:0px; left: 250px}
-    40%: {background-color: red; top:0px; left: 250px}
-    50%: {background-color: red; top:0px; left: 250px}
-    60%: {background-color: red; top:0px; left: 250px}
-    70%: {background-color: red; top:0px; left: 250px}
-    80%: {background-color: red; top:0px; left: 250px}
-    90%: {background-color: red; top:0px; left: 250px}
-    100%: {background-color: red; top:0px; left: 250px}
+@keyframes loading {
+    0% {background-color: yellow; top: 0px; left: 250px;}
+    10% {background-color: green; top: 50px; left: 400px;}
+    20% {background-color: black; top: 175px; left: 489px;}
+    30% {background-color: aqua; top: 325px; left: 489px;}
+    40% {background-color: purple; top: 450px; left: 400px;}
+    50% {background-color: grey; top: 500px; left: 250px;}
+    60% {background-color: rgb(50, 20, 184); top: 450px; left: 100px;}
+    70% {background-color: rgb(25, 195, 207); top: 328px; left: 12px;}
+    80% {background-color: red; top: 50px; left: 100px;}
+    90% {background-color: rgb(223, 14, 212); top: 50px; left: 100px;}
+    100% {background-color: rgb(206, 178, 22); top: 0px; left: 250px;}
+}
+.a {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position:absolute;
+    animation-name: loading;
+    animation-duration: 10s;
 }
